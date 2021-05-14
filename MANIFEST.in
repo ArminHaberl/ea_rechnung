@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ea_rechnung *.css
+recursive-include ea_rechnung *.csv
+recursive-include ea_rechnung *.html
+recursive-include ea_rechnung *.ico
+recursive-include ea_rechnung *.js
+recursive-include ea_rechnung *.json
+recursive-include ea_rechnung *.md
+recursive-include ea_rechnung *.png
+recursive-include ea_rechnung *.py
+recursive-include ea_rechnung *.svg
+recursive-include ea_rechnung *.txt
+recursive-exclude ea_rechnung *.pyc
