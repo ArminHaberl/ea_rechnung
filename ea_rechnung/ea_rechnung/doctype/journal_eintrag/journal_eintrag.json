@@ -1,0 +1,51 @@
+{
+ "actions": [],
+ "autoname": "EAJ.#####",
+ "creation": "2021-05-14 17:18:15.072981",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "datum",
+  "konto"
+ ],
+ "fields": [
+  {
+   "fieldname": "datum",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Datum",
+   "reqd": 1
+  },
+  {
+   "fieldname": "konto",
+   "fieldtype": "Link",
+   "label": "Konto",
+   "options": "Account"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-05-14 21:02:54.624086",
+ "modified_by": "Administrator",
+ "module": "EA-Rechnung",
+ "name": "Journal Eintrag",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
